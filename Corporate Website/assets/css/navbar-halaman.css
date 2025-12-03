@@ -81,3 +81,15 @@ a {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+/* Responsive */
+@media (max-width: 992px) {
+  .navbar .title {
+    font-size: 22px;
+  }
+}
+@media (max-width: 446px) {
+  .navbar .title {
+    font-size: 20px;
+  }
+}
